@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AB4F3"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#ffffff"
+            android:hint="Enter your address "
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/red_text0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="#E9081F" />
+
+        <EditText
+            android:id="@+id/floor"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#ffffff"
+            android:hint="Enter your floor"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/red_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="#E9081F" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#ffffff"
+            android:hint="Enter price"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/red_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="#E9081F" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#ffffff"
+            android:hint="Enter your phone number"
+            android:inputType="text"
+            android:padding="10dp" />
+
+
+        <TextView
+            android:id="@+id/red_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="#E9081F" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonnext1234"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#0589FB"
+                android:gravity="center"
+                android:text="Next map"
+                android:textColor="#ffffff"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

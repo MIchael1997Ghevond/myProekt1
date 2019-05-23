@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AB4F3"
+    android:orientation="vertical">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_weight="1"
+        tools:context=".MapsSearch" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Enter  Radius"
+            android:inputType="number"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/radius_500"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:background="@mipmap/exchange"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+</LinearLayout>
