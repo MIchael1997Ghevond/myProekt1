@@ -102,7 +102,7 @@ public class MapsSearch extends FragmentActivity implements GoogleMap.InfoWindow
         arr.add(location);
         arr.add(location1);
         arr.add(location3);
-
+        //ehgvuhwoiuhpwuheiwhguih
         mMap.setInfoWindowAdapter(this);
         final Button buttonRadius2 = (Button) findViewById(R.id.radius_500);
         buttonRadius2.setOnClickListener(new View.OnClickListener() {
